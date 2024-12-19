@@ -1,0 +1,63 @@
+.container {
+  /* width: 100%; */
+  margin: 2 rem 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Headings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Headings > img {
+  width: 100px;
+  height: 10px;
+  object-fit: cover;
+}
+
+.Headings > h1 {
+  color: #194668;
+  height: 10px;
+}
+
+.Headings p {
+  width: 500px;
+  text-align: center;
+}
+
+.stepsCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 2rem;
+}
+.step {
+  border-radius: 7px;
+  background: #ffffff;
+  box-shadow: 21px 21px 40px #a6a6a6, -21px -21px 40px #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 150px;
+  padding: 2rem;
+  height: 100px;
+  color: #022036eb;
+
+
+}
+
+.step .icons{
+    font-size: 2rem;
+    
+}
+.step >*{
+    margin:0.5rem 0;
+    font-weight: 600;
+}
